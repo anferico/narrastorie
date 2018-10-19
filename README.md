@@ -1,2 +1,2 @@
-# narrastorie
-Android interactive storytelling app
+# Narrastorie
+An interactive storytelling app for the Android platform.
