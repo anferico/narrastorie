@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogColor">
+
+    <it.unipi.di.sam.carriage.narrastorie.SquareLayout
+        android:id="@+id/story_sheet_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/scroll">
+
+    </it.unipi.di.sam.carriage.narrastorie.SquareLayout>
+
+    <it.unipi.di.sam.carriage.narrastorie.SquareScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:id="@+id/story_sheet_overlying_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/superlorem"/>
+
+    </it.unipi.di.sam.carriage.narrastorie.SquareScrollView>
+
+</RelativeLayout>
+

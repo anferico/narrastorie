@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dialogColor">
+
+    <TextView
+        android:id="@+id/confirmation_dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/lorem"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/confirmation_dialog_ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:background="#00000000"
+            android:src="@drawable/ic_check_circle_black_48dp"/>
+
+        <ImageButton
+            android:id="@+id/confirmation_dialog_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:background="#00000000"
+            android:src="@drawable/ic_cancel_black_48dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

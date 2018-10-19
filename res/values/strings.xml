@@ -1,0 +1,581 @@
+<resources>
+    <string name="app_name">Narrastorie</string>
+    <string name="app_version">Versione 1.0</string>
+    <string name="author">Autore</string>
+    <string name="author_name">Francesco Cariaggi</string>
+    <string name="author_email">anfri.cariaggi@gmail.com</string>
+    <string name="tell_me_a_story">Narrami una storia</string>
+    <string name="my_stories">Le mie storie</string>
+    <string name="no_available_stories">Niente da visualizzare</string>
+    <string name="about">Info</string>
+    <string name="characters">Personaggi</string>
+    <string name="confirm">Conferma</string>
+    <string name="add_character">Aggiungi personaggio</string>
+    <string name="pick_character">Scegli personaggio</string>
+    <string name="need_a_hint">Serve un suggerimento?</string>
+    <string name="enter_your_name">Inserisci il tuo nome. Mi servirà per riferirmi a te mentre racconterò la storia</string>
+    <string name="your_name">Il tuo nome</string>
+    <string name="wanna_save_story">Fine! Vuoi salvare la storia che hai appena ascoltato?</string>
+    <string name="enter_story_name">Dai un titolo a questa storia</string>
+    <string name="title">Titolo</string>
+    <string name="wanna_delete_story">Vuoi davvero eliminare questa storia?</string>
+    <string name="dont_leave_it_empty">Non può essere vuoto!</string>
+    <string name="characters_description">Scegli i protagonisti della storia. Li riconosci? Sono i tuoi contatti!</string>
+    <string name="saving_story">Sto salvando la storia… (Richiederà un po\' di tempo)</string>
+    <string name="story_saved">Storia salvata</string>
+    <string name="story_already_present">È già presente una storia con quel nome!</string>
+    <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <string name="superlorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+
+	<string name="S0">
+	{
+		\"fragmentID\": \"S0\",
+		\"text\": \"{0} e {1}, amici di lunga data, decidono di trascorrere un fine settimana al mare per alleviare il crescente stress che aveva cominciato a perseguitarli da quando avevano perduto il lavoro. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 2
+		}
+	}
+	</string>
+
+	<string name="S0.0">
+	{
+		\"fragmentID\": \"S0.0\",
+		\"text\": \"{0} fu vittima di un improvviso taglio del personale presso l\'azienda cui aveva prestato servizio per vent\'anni. Stando invece a quanto diceva il capo di {1}, la sua natura pacata e rilassata mal si sposava coi ritmi frenetici che la sua azienda imponeva. Tra {1} e il suo capo correva tensione da molto  tempo. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S0.1">
+	{
+		\"fragmentID\": \"S0.1\",
+		\"text\": \"Pochi mesi prima {0} aveva dovuto rifiutare un trasferimento al nord. La decisione aveva destato non poco risentimento tra i suoi superiori, così adesso si ritrovava a casa con un pugno di mosche. {1}, dal canto suo, aveva dovuto farsi da parte. \\\"C\'è bisogno di idee nuove, idee che solo le giovani menti sono in grado di partorire\\\" – aveva detto il suo capo. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0\",
+		\"text\": \"{0} e {1} partirono alle prime luci dell\'alba di un 20 Aprile che per la verità assomigliava molto ad un 20 Agosto. \\\"E poi c\'è ancora chi non vuole ammettere che i tempi sono cambiati. Questi cambiamenti climatici sono un problema serio. Ho letto da qualche parte che molte specie animali sono a rischio estinzione.\\\" - disse {1}. \\\"L\'hai detto!\\\" – ribatté {0}. Arrivarono poco prima delle 11, quando ormai il sole era già alto nel cielo. \\\"Ehi {0}, dove hai detto di aver prenotato?\\\" - chiese {1}. \",
+		\"endType\": \"Swipe\",
+		\"endOptions\": {
+			\"message\": \"Dove hai prenotato? \",
+			\"leftSwipeMessage\": \"\\\"E\' un modesto hotel a pochi passi dal mare.\\\" \",
+			\"rightSwipeMessage\": \"\\\"Come sarebbe {1}, credevo ci avessi pensato tu!\\\" \"
+		}
+	}
+	</string>
+
+    <string name="S0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0\",
+		\"text\": \"\\\"Fantastico\\\" – disse {1}. \\\"È ancora molto distante?\\\" \\\"Non preoccuparti {1}, intravedo già la bandiera a scacchi nel navigatore.\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0\",
+		\"text\": \"Una volta raggiunto l\'hotel, si accorsero che l\'ingresso era vuoto. Un silenzio quasi irreale avvolgeva la stanza. {0} notò un campanello sul bancone della reception. La sua mente fu proiettata indietro nel tempo di almeno quarant\'anni. Ricordò con nostalgia sua madre che soleva agitare un campanello molto simile a quello quando la cena era pronta. \\\"Forse se ci annunciamo qualcuno si farà vivo\\\" – pensò. \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Annunciati agitando il campanello. \",
+			\"interactionType\": \"Shaking\",
+			\"hint\": \"Prova scuotere il dispositivo. \"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0\",
+		\"text\": \"Quella che accolse {0} e {1} era una signora piuttosto attempata. Aveva i capelli biondi, e indossava un elegante collana di perle. \\\"Buongiorno, voi dovreste essere {0} e {1}, dico bene? Venite, vi mostro la vostra camera.\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.1">
+	{
+		\"fragmentID\": \"S0.0.0.1\",
+		\"text\": \"\\\"Accidenti {0}! Ma che hai in testa?\\\" \\\"Senti {1}, non facciamone una tragedia. La distrazione è uno dei tanti sintomi dello stress. Cerchiamo soltanto di rilassarci in questi giorni.\\\" \\\"Hai ragione {0}, ti chiedo scusa.\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.1.0">
+	{
+		\"fragmentID\": \"S0.0.0.1.0\",
+		\"text\": \"{0} e {1} adocchiarono un piccolo ostello non troppo distante dal mare. Decisero di entrare con la speranza di potervisi sistemare. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.1.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.1.0.0\",
+		\"text\": \"Quello che accolse {0} e {1} era un giovanotto dall\'aria familiare. A {1} ricordava molto {2}, una vecchia amicizia dei banchi di scuola. \\\"Chissà se sono imparentati in qualche modo\\\" – pensò. \\\"Buongiorno, cosa posso fare per voi?\\\" - chiese il giovane. \\\"Stiamo cercando una camera per questo fine settimana.\\\" – rispose {1}. \\\"Immagino non abbiate prenotato. Dunque vediamo… Oh! La fortuna vi sorride, proprio ieri una coppia ha dovuto disdire la propria prenotazione.\\\" \\\"Grandioso, disse {0}.\\\" \\\"Seguitemi, vi mostro la vostra camera.\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S0.0.0.0.0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Allora, la camera è di vostro gradimento?\\\" - domandò. \",
+		\"endType\": \"Swipe\",
+		\"endOptions\": {
+			\"message\": \"La camera è di vostro gradimento? \",
+			\"leftSwipeMessage\": \"\\\"Deliziosa\\\" – disse {0}. \\\"Sembra accogliente\\\" – aggiunse {1}. \",
+			\"rightSwipeMessage\": \"\\\"Non ne avreste una leggermente più spaziosa? Sa, io soffro di claustrofobia.\\\" - lamentò {1}. \"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Benissimo, vorrà dire che vi lascerò sistemare le vostre cose. Se avete bisogno mi trovate alla reception.\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.1">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.1\",
+		\"text\": \"\\\"Certo, nessun problema. Da questa parte.\\\" {0} e {1} furono condotti presso una seconda camera molto più ampia della prima. \\\"Questa è perfetta!\\\" - ringraziò {1}. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S0.0.0.0.0.0.0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.0.0\",
+		\"text\": \"Mentre sistemava la sua roba negli armadi, {0} notò qualcosa. \\\"Guarda {1}, un paio di maracas! Non mi stupisco di trovare oggetti dimenticati in una camera, ma un paio di maracas è decisamente inusuale!\\\" \\\"Maracas hai detto? A che servono?\\\" - domandò {1}. \\\"Non mi dire che non hai mai suonato un paio di maracas! Sono dei rudimentali strumenti a percussione originari del sud america. Adesso ti mostro come si suonano.\\\" \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Suona le maracas. \",
+			\"interactionType\": \"Shaking\",
+			\"hint\": \"Prova a scuotere il dispositivo. \"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Interessante, tra l\'altro non sei neanche male!\\\" - disse {1}. \\\"Ma adesso che ne dici di sbrigarci e dirigerci verso la spiaggia?\\\" \\\"Buona idea\\\" - disse {0}. Pochi minuti più tardi {0} e {1} erano già coi piedi sulla sabbia. \\\"Dì un po\' {0}, tu sai nuotare?\\\" - chiese {1}. \",
+		\"endType\": \"Swipe\",
+		\"endOptions\": {
+			\"message\": \"Sai nuotare? \",
+			\"leftSwipeMessage\": \"\\\"Ci puoi scommettere!\\\" - rispose {0}. \",
+			\"rightSwipeMessage\": \"\\\"No, purtroppo no.\\\" - rispose {0}. \"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Ottimo, allora facciamoci una nuotata. Pensi di poter arrivare agli scogli prima di me?\\\" - chiese {1} col tono di chi lancia una sfida. \\\"Vuoi scherzare? Preparati ad offrirmi una pizza una sera di queste.\\\" rispose {0}. Si tuffarono dunque in acqua mirando verso gli scogli. {0} sembrava inizialmente in grado di far mangiare la polvere a {1}, ma ben presto il suo ritmo calò. {1} raggiunse le rocce con un ampio vantaggio. \\\"Mi sa tanto che toccherà a te spalancare il portafogli una sera di queste!\\\" - esclamò {1}. \\\"Una scommessa è una scommessa\\\" - rispose {0}. \\\"Guarda {1}, che cos\'è quella?\\\" \\\"Ti riferisci a quella conchiglia attaccata allo scoglio? Aspetta che la prendo. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.0.0.0.1">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.0.0.0.1\",
+		\"text\": \"\\\"E non credo neanche di poter imparare a a 45 anni suonati.\\\" \\\"Credo che la tua sia piuttosto una remora psicologica. Dopotutto non esiste un limite prestabilito di età per poter imparare a nuotare.\\\" - ribatté {1}. \\\"Tutto ciò di cui avresti bisogno è un buon insegnante, ma del resto io non credo di fare al caso tuo. Fa nulla, vorrà dire che arrostiremo un pochino al sole.\\\" Pochi minuti dopo {1} era già tra le braccia di Morfeo. A {0} venne in mente un vecchio proverbio che doveva aver imparato da qualcuno dei suoi nonni. \\\"Aprile dolce dormire.\\\" Pensò che in fondo non avessero tutti i torti. Per sgranchire un po\' le gambe, {0} decise di farsi una passeggiata lunga la riva. Nel tragitto raccolse molte conchiglie. Poco più tardi raggiunse di nuovo {1}, che nel frattempo, per ingannare il tempo, aveva cominciato a leggere un libro. Da lontano {0} agitava orgogliosamente la conchiglia più grande che aveva trovato, più o meno come si fa con una bandiera. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+            \"reconnectsTo\": \"S0.0.0.0.0.0.0.0.0.0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Scommetto che questa non la sai. Con conchiglie del genere si può udire il suono del mare. Prova ad avvicinarla all\'orecchio.\\\" - disse {1}. \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Avvicina la conchiglia all\'orecchio. \",
+			\"interactionType\": \"Proximity\",
+			\"hint\": \"Prova ad avvicinare il dispositivo all\'orecchio. \"
+		}
+	}
+	</string>
+
+	<string name="S0.0.0.0.0.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S0.0.0.0.0.0.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Hai ragione, è incredibile!\\\" - disse {0} con stupore. \\\"Bello, vero? Mio nonno diceva che portano dentro di loro lo spirito millenario del mare. In realtà, e molto meno poeticamente, è un mero fenomeno dovuto alla conformazione del nostro orecchio. Quello che sentiamo è in realtà il rumore del sangue che scorre attraverso gli innumerevoli capillari che popolano il padiglione auricolare. Già, a volte la realtà sa essere deludente.\\\" \",
+		\"endType\": \"End\",
+		\"endOptions\": null
+	}
+	</string>
+
+	<string name="S1">
+	{
+		\"fragmentID\": \"S1\",
+		\"text\": \"\\\"Mi raccomando {1}, non rimanere troppo a lungo davanti alla televisione, o ti farà male. Dovresti andare a letto, hai dimenticato che domani dobbiamo partire per la montagna?\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 2
+		}
+	}
+	</string>
+
+	<string name="S1.0">
+	{
+		\"fragmentID\": \"S1.0\",
+		\"text\": \"\\\"Ancora 5 minuti e sarò sotto le coperte.\\\" - disse {1}. \\\"D\'accordo, ma non un minuto di più!\\\". \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S1.1">
+	{
+		\"fragmentID\": \"S1.1\",
+		\"text\": \"\\\"Ma trasmettono il mio cartone animato preferito!\\\" \\\"Niente ma, se tra 5 minuti non ti trovo sotto le coperte domani resti a casa.\\\" \\\"E va bene, che noia!\\\" - sbuffò {1}. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S1.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0">
+	{
+		\"fragmentID\": \"S1.0.0\",
+		\"text\": \"{0} lasciò la cameretta di {1} e si diresse nella propria. Ancora non aveva finito di preparare la valigia. \\\"Scarpe da trekking, spray per gli insetti, … Ehi, {1}! Vieni un attimo qua!\\\" {0} non ebbe il tempo di voltarsi che {1} gli era già davanti. Sembrava un soldatino. \\\"Dimmi pure.\\\" \\\"Quale credi che dovrei portare, la maglietta rossa o la nera?\\\" \",
+		\"endType\": \"Swipe\",
+		\"endOptions\": {
+			\"message\": \"La rossa o la nera?\",
+			\"leftSwipeMessage\": \"\\\"Ma la rossa, è ovvio!\\\" - esclamò {1}. \",
+			\"rightSwipeMessage\": \"\\\"A me piace molto la nera\\\" - disse {1}. \"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0">
+	{
+		\"fragmentID\": \"S1.0.0.0\",
+		\"text\": \"\\\"Non sai che il nero attira il calore? Non vorrai morire di caldo, spero.\\\" \\\"È che il nero è il mio colore preferito, non trovi sia più elegante?\\\" - domando {0}. \\\"Guarda che il nero non è un colore, anzi rappresenta l\'assenza di colori! E poi chi bada all\'eleganza quando va in montagna?\\\" \\\"Ma chi ti insegna tutte queste cose? Certe volte mi sembra che tu ne sappia più di me!\\\" - domandò {0} con un misto di stupore e sospetto. \\\"La madre di {2} è molto istruita, ogni volta che {2} mi invita a casa sua ci racconta sempre qualcosa di interessante.\\\" - disse {1} con orgoglio. \\\"{2} hai detto?\\\" - chiese {0}. \\\"Sì, {2}, siamo compagni di banco. \\\"Ah ma certo! D\'accordo {1}, ti ringrazio molto per il consiglio!\\\" - disse {0}. Con la stessa agilità con la quale aveva raggiunto la camera, {1} filò via prima che {0} potesse accorgersene. \\\"Ma tu guarda i bambini!\\\" - pensò. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.1">
+	{
+		\"fragmentID\": \"S1.0.0.1\",
+		\"text\": \"\\\"È deciso allora, vada per la nera. Speravo fossi d\'accordo con me, sai? A questa maglietta tengo molto, è un regalo di {2}.\\\" \\\"Chi è {2}?\\\" - domandò {1} con aria sospettosa. \\\"Frequentavamo lo stesso corso di teatro quando eravamo piccoli, non te l\'ho mai raccontato? Non ci vediamo da molti anni ormai. Sai come va, la famiglia, il lavoro, … Ha anche dei bambini. Non ne ho la certezza, ma qualcuno di loro deve avere la tua stessa età. Ti dice nulla il nome {3}?\\\" - chiese {0}. \\\"Come no, io e suo fratello siamo compagni di banco!\\\" - esclamò {1}. \\\"Davvero? Non lo sapevo!\\\" - disse {0}. \\\"Adesso però fai come ti ho detto, vai a dormire.\\\" \\\"D\'accordo, buonanotte!\\\" \\\"Buonanotte!\\\" - rispose {0}. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S1.0.0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0.0">
+	{
+		\"fragmentID\": \"S1.0.0.0.0\",
+		\"text\": \"Una volta finito di preparare la valigia, {0} volle accertarsi che {1} dormisse come gli aveva detto di fare. La porta della sua cameretta era chiusa, eppure {0} aveva l\'impressione di sentire dei bisbigli misti a risate. Bussò una volta, poi due, ma nessuna risposta. {0} appoggiò un orecchio alla porta per origliare. \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Appoggia l\'orecchio alla porta per origliare. \",
+			\"interactionType\": \"Proximity\",
+			\"hint\": \"Prova ad avvicinare il dispositivo all\'orecchio. \"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S1.0.0.0.0.0\",
+		\"text\": \"{1} aveva dimenticato la televisione accesa, ma in compenso dormiva profondamente. {0} la spense, quindi si diresse verso la propria camera. Dopo una veloce lavata di denti, {0} si infilò il pigiama e si rimboccò le coperte. \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Spegni la luce prima di metterti a dormire. \",
+			\"interactionType\": \"Light\",
+			\"hint\": \"Prova a coprire il sensore di luminosità del dispositivo. \"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S1.0.0.0.0.0.0\",
+		\"text\": \"Il mattino dopo, {0} sapeva che sarebbe stata una bella giornata. Per prima cosa andò a svegliare {1}. Con sua grande sorpresa, {1} dormiva ancora profondamente. A {0} sovvenne immediatamente un vecchio proverbio che doveva aver sentito dai propri genitori. \\\"La sera leoni, la mattina …\\\". Non ricordava esattamente le parole. Un sorriso gli si disegnò sul volto. Decise di svegliare {1} con un delicato strattone, visto che sapeva benissimo che non sarebbe bastata una cannonata per far rinvenire quella piccola peste. Ogni mattina prima della scuola era così. \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Strattona {1}. \",
+			\"interactionType\": \"Shaking\",
+			\"hint\": \"Prova a scuotere il dispositivo. \"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S1.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Su {1}, è ora di alzarsi! Ti aspetto giù per la colazione.\\\" - sussurrò {0}. \\\"D\'accordo, mi vesto e arrivo\\\" – biascicò {1}, ancora con la voce smorzata dal sonno. {0} preparò il caffè come d\'abitudine. Mise a riscaldare anche un po\' di latte per {1}. Pochi istanti più tardi, complice forse l\'eccitazione per quella gita in montagna che bramava da tanto tempo, {1} si piombò al piano inferiore. Indossava gli scarponi e gli indumenti da montagna, ed aveva lo zaino già in spalla. \\\"Ehi, giovane marmotta!\\\" - esclamò {0} scherzosamente. \\\"Non pensi che dovremmo fare colazione prima?\\\" \\\"Andiamo, la montagna ci aspetta!\\\" - disse {1}. \\\"Siediti per favore, e bevi qualcosa.\\\" \\\"D\'accordo, ma solo se mi dai un po\' del tuo caffè. Sono grande per il latte ormai.\\\" - ribatté {1}. \",
+		\"endType\": \"Swipe\",
+		\"endOptions\": {
+			\"message\": \"\\\"Posso?\\\" - chiese {1}. \",
+			\"leftSwipeMessage\": \"\\\"D\'accordo, ma solo un piccolo sorso. Non vorrei che ti caricasse più di quanto tu non lo sia già.\\\" - scherzò {0}. \",
+			\"rightSwipeMessage\": \"\\\"Non se ne parla {1}, aspetta di avere almeno 12 anni.\\\" - disse {0}. \"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S1.0.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Bleah, che schifo! Non mi piace!\\\" - lamentò {1}. \\\"Lo immaginavo. Vuoi sempre fare le cose da grandi. Quant\'è bella giovinezza, che si fugge tuttavia…\\\" \\\"Ma che stai blaterando?\\\" - chiese {1}. \\\"Niente, non farci caso. Allora vogliamo andare?\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0.0.0.0.0.1">
+	{
+		\"fragmentID\": \"S1.0.0.0.0.0.0.0.1\",
+		\"text\": \"\\\"Uffa, ma tutti i miei amici lo hanno bevuto almeno una volta!\\\" - sbuffò {1}. \\\"Quello che fanno i tuoi amici non mi interessa affatto.\\\" - rispose {0}. \\\"Non sempre quello che fanno tutti è la cosa giusta da fare. Anzi, direi che molto più spesso è la cosa più stupida che si possa fare. Allora {1}, vogliamo andare o hai cambiato idea?\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S1.0.0.0.0.0.0.0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S1.0.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S1.0.0.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Certo, non vedo l\'ora!\\\"\",
+		\"endType\": \"End\",
+		\"endOptions\": null
+	}
+	</string>
+
+	<string name="S2">
+	{
+		\"fragmentID\": \"S2\",
+		\"text\": \"Una profonda amicizia legava {0} e {1} da almeno 10 anni. {0} non era una persona molto esuberante, ma la sua sensibilità e il suo carisma avevano colpito {1}. {0} aveva un talento straordinario per il pianoforte. {1} era invece un tipo sportivo: la sua bacheca era ricolma di medaglie e trofei di ogni genere. La sua positività e simpatia avevano conquistato {0} fin dal primo istante. I due adolescenti stavano trascorrendo un pomeriggio a casa di {1}. Era una giornata grigia quella: non uno spiraglio di luce filtrava dai nuvoloni neri che invadevano il cielo. La noia stava cominciando ad impossessarsi di loro, così {0} decise di rompere il ghiaccio chiedendo: \\\"Ehi {1}, che cosa tieni dentro quel baule accanto all\'armadio? Sbaglio o al suo posto c\'è sempre stato qualcos\'altro?\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 2
+		}
+	}
+	</string>
+
+	<string name="S2.0">
+	{
+		\"fragmentID\": \"S2.0\",
+		\"text\": \"\\\"In realtà non si è mai mosso di lì. Probabilmente non l\'avevi notato perché solitamente non presti non troppa attenzione ad ogni singolo oggetto in questa camera, il che è normalissimo. Credo che contenga per lo più vecchi libri. Ma possiamo dargli un\'occhiata, se ti va.\\\" - disse {1} \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S2.1">
+	{
+		\"fragmentID\": \"S2.1\",
+		\"text\": \"\\\"In effetti è così. Sai, con la mia famiglia stiamo traslocando, credo che prima si trovasse in cantina. Onestamente non so dirti che cosa contenga, ma possiamo scoprirlo subito.\\\" - disse {1}. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S2.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S2.0.0">
+	{
+		\"fragmentID\": \"S2.0.0\",
+		\"text\": \"\\\"Fantastico, facciamolo!\\\" - esclamò {0}. Una volta aperto il baule, quello che catturò l\'occhio di {0} e {1} fu un contenitore di latta con un dito di polvere sopra. \\\"Ma che cos\'è?\\\" - chiese {1}. \\\"Non sapevo neanche di averla una cosa del genere. Riesci a vedere che cosa c\'è scritto?\\\" \\\"Forse dovremmo prima liberarci di tutta quella polvere.\\\" - suggerì {0}. \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Soffia via la polvere dal contenitore. \",
+			\"interactionType\": \"Blowing\",
+			\"hint\": \"Prova a soffiare nel microfono del dispositivo. \"
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0">
+	{
+		\"fragmentID\": \"S2.0.0.0\",
+		\"text\": \"{0} prese il contenitore e soffiò via la polvere. \\\"Fine quality butter cookies.\\\" - lesse {0} nel coperchio. \\\"Una semplice scatola di biscotti. È comune che vengano riutilizzate come porta oggetti. Posso aprirlo?\\\" - chiese {0}. \\\"Ma si certo, come ti ho detto non sapevo neanche di averlo.\\\" - disse {1}. \\\"Guarda, ci sono diversi portachiavi. C\'è anche un quadrifoglio. Ehi un momento, e questo cos\'è?\\\" - domandò {0} confuso. \\\"Sembra una pagina strappata da qualche piccola agenda.\\\" \\\"Che c\'è scritto?\\\" - chiese {1} incuriosito. \\\"Sembra un indirizzo\\\" - disse {0}. \\\"Dì un po\' {1}, stai pensando quello che penso io?\\\" - domandò {0}. \",
+		\"endType\": \"Swipe\",
+		\"endOptions\": {
+			\"message\": \"Che cosa dovremmo fare? \",
+			\"leftSwipeMessage\": \"\\\"Non credi che dovremmo lasciare il contenitore dove l\'abbiamo trovato?\\\" - disse {1}. \",
+			\"rightSwipeMessage\": \"\\\"Andiamo a rintracciare questa persona!\\\" - esclamò {1} entusiasta. \"
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.0">
+	{
+		\"fragmentID\": \"S2.0.0.0.0\",
+		\"text\": \"\\\"Con tutta probabilità chi l\'ha lasciato qui aveva l\'intenzione di sbarazzarsene, non trovi? Sarebbe solo una perdita di tempo la nostra.\\\" \\\"Ma che dici, {1}! Non hai mai sognato di trovarti in mezzo ad una folle avventura da bambino? Dietro a questo semplice contenitore potrebbe nascondersi un mistero eccitantissimo!\\\" - esclamò {0}. \\\"Eddai, non farti pregare, lo sai che sono capace di stare qui tutto il giorno.\\\" \\\"D\'accordo {0}, facciamolo. Dopotutto ci stavamo anche annoiando.\\\" - disse {1}. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.1">
+	{
+		\"fragmentID\": \"S2.0.0.0.1\",
+		\"text\": \"\\\"Fantastico {1}, sapevo di poter contare su di te! Diamo libero sfogo all\'Indiana Jones che si cela dentro di noi e scopriamo chi o cosa si nasconde dietro a questo contenitore!\\\" - incalzò {0}, che già assaporava il brivido dell\'avventura. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S2.0.0.0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S2.0.0.0.0.0\",
+		\"text\": \"{0} e {1} si diressero quindi presso l\'indirizzo specificato nel foglietto. Nel luogo trovarono una piccola abitazione. {0} bussò alla porta, e poco dopo un anziano signore si palesò di fronte a loro. \\\"Salve, avete bisogno di qualcosa?\\\" - chiese l\'uomo. \\\"In un certo senso sì, disse {0}. Abbiamo rinvenuto questo piccolo contenitore contenente alcune oggetti personali. C\'era anche un biglietto con questo indirizzo. Per caso le appartiene?\\\" - domandò educatamente {0}. \\\"Non mi risulta\\\" - disse l\'uomo. \\\"Potreste però provare a chiedere al precedente inquilino di questa abitazione, magari è roba sua. Questo è il suo numero.\\\" \\\"Fantastico!\\\" - disse {1}. \\\"Ci è stato di grande aiuto, grazie!.\\\" \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S2.0.0.0.0.0.0\",
+		\"text\": \"\\\"Ehi {0}, per caso hai qualche spicciolo? Dietro l\'angolo dovrebbe esserci una cabina telefonica, potremmo usare quella per rintracciare il nostro uomo!\\\" - disse {1}. \",
+		\"endType\": \"Swipe\",
+		\"endOptions\": {
+			\"message\": \"Hai qualche spicciolo? \",
+			\"leftSwipeMessage\": \"\\\"Si certo.\\\" - disse {0}. \",
+			\"rightSwipeMessage\": \"\\\"Accidenti, purtroppo sono al verde…\\\" - disse {0}. \"
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S2.0.0.0.0.0.0.0\",
+		\"text\": \"\\\"Benissimo, andiamo allora!\\\" {0} e {1} raggiunsero la cabina telefonica e inserirono le monete. Successivamente composero il numero che l\'anziano signore aveva gentilmente fornito. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"branches\": 1
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.0.0.0.1">
+	{
+		\"fragmentID\": \"S2.0.0.0.0.0.0.1\",
+		\"text\": \"\\\"Non c\'è problema\\\" - disse {1}. \\\"Vorrà dire che metterò in pratica un vecchio trucchetto insegnatomi da mio zio. Inserirò un filo di lega nella fessura degli spiccioli e vedrò di ingannare la stupida macchina.\\\" Il trucco, incredibilmente, sembrò funzionare, così {0} e {1} si affrettarono a comporre il numero. \",
+		\"endType\": \"Continue\",
+		\"endOptions\": {
+			\"reconnectsTo\": \"S2.0.0.0.0.0.0.0.0\"
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S2.0.0.0.0.0.0.0.0\",
+		\"text\": \"{0} alzò la cornetta. \",
+		\"endType\": \"Interaction\",
+		\"endOptions\": {
+			\"message\": \"Porta la cornetta del telefono all\'orecchio. \",
+			\"interactionType\": \"Proximity\",
+			\"hint\": \"Avvicina il dispositivo all\'orecchio. \"
+		}
+	}
+	</string>
+
+	<string name="S2.0.0.0.0.0.0.0.0.0">
+	{
+		\"fragmentID\": \"S2.0.0.0.0.0.0.0.0.0\",
+		\"text\": \"Dall\'altro capo del filo provenne una voce di un uomo sulla conquantina. \\\"Sì, chi parla?\\\" - chiese l\'uomo. \\\"Salve signore, abbiamo rinvenuto un contenitore che potrebbe appartenerle. C\'erano diversi portachiavi, appunti, ed un quadrifoglio.\\\" - disse {0}. \\\"Un contenitore hai detto? Ah sì, quel contenitore… Sai, da piccolo ero appassionato di pirati, così pensai bene di idearmi il mio prezioso tesoretto e nasconderlo dove nessuno avrebbe potuto più ritrovarlo. Quello che non mi spiego è come possa essere finito in mano vostra!\\\" - disse l\'uomo. \\\"Non ce lo spieghiamo neanche noi per la verità\\\" - disse {0}. \\\"Ad ogni modo potete tenerlo\\\" - proseguì l\'uomo - \\\"fatene il ricordo di una scoperta sensazionale, ai limiti del reale!\\\" \",
+		\"endType\": \"End\",
+		\"endOptions\": null
+	}
+	</string>
+
+</resources>

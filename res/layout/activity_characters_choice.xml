@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".CharactersChoiceActivity"
+    android:background="@color/dialogColor">
+
+    <TextView
+        android:id="@+id/activity_characters_choice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/characters"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/first_character_thumbnail"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/you"/>
+
+        <Spinner
+            android:id="@+id/second_character_spinner"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:drawSelectorOnTop="false"
+            android:spinnerMode="dialog"
+            android:layout_margin="2dp"/>
+
+        <Spinner
+            android:id="@+id/third_character_spinner"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:drawSelectorOnTop="false"
+            android:spinnerMode="dialog"
+            android:layout_margin="2dp"/>
+
+        <Spinner
+            android:id="@+id/fourth_character_spinner"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:drawSelectorOnTop="false"
+            android:spinnerMode="dialog"
+            android:layout_margin="2dp"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button_confirm_characters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/confirm"/>
+
+</RelativeLayout>

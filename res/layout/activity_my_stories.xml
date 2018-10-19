@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="it.unipi.di.sam.carriage.narrastorie.MyStoriesActivity"
+    android:background="@color/dialogColor">
+
+    <TextView
+        android:id="@+id/my_stories_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textSize="48sp"
+        android:text="@string/my_stories"/>
+
+    <!-- Funge da segnaposto se non c'è nulla da visualizzare -->
+    <TextView
+        android:id="@+id/my_stories_unavailable_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/secondary_text_light"
+        android:text="@string/no_available_stories"/>
+
+    <ListView
+        android:id="@+id/my_stories_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:visibility="gone"/>
+
+</LinearLayout>
